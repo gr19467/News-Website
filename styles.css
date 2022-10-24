@@ -36,3 +36,23 @@ h1{
     margin-right: auto;
     display: block;
 }
+
+h3{
+    color: rgb(255,200,87);
+
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+aside{
+    border: dotted rgb(197,34,51);
+    border-radius: 15px;
+    text-align: center;
+    color: rgb(197,34,51);
+
+    width: 25%;
+    height: 25%;
+}
