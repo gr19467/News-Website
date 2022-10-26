@@ -53,6 +53,26 @@ aside{
     text-align: center;
     color: rgb(197,34,51);
 
-    width: 25%;
+    width: 24%;
     height: 25%;
+    padding-right: 0%;
+}
+
+.grid-item{
+    display: inline-block;
+    background-color: rgb(255,200,87);
+}
+
+.grid-item-ad{
+    display: inline-block;
+    border: dotted rgb(255,200,87);
+    background-color: rgb(197,34,51);
+    color: rgb(255,200,87);
+    height: 50vh;
+    font-size: 150%;
+}
+
+.giant{
+    width: 23vw;
+    height: 23vh;
 }
