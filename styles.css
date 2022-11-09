@@ -1,10 +1,8 @@
-/*
-*/
-
 body{
     background-color: rgb(124,182,222);
 }
 
+/*Navi*/
 ul{
     color: rgb(255,200,87);
 
@@ -26,7 +24,14 @@ ul>li{
     border-radius: 15px;
 }
 
-h1{
+/*Title*/
+.title > h5{
+    color: rgb(255,200,87);
+    text-align: center;
+    margin-top: 0%;
+}
+
+.title > h1 {
     color: rgb(255,200,87);
     
     margin-top: 50px;
@@ -40,7 +45,7 @@ h1{
     display: block;
 }
 
-h3{
+.title > h3{
     color: rgb(255,200,87);
 
     text-align: center;
@@ -50,6 +55,7 @@ h3{
     display: block;
 }
 
+/*Ads*/
 aside{
     border: dotted rgb(197,34,51);
     border-radius: 15px;
@@ -75,12 +81,8 @@ aside{
     font-size: 150%;
 }
 
-.giant{
-    width: 20vw;
-    height: 19vh;
-}
-
-.article-1{
+/*Articles*/
+.article{
     margin-top: 5px;
 
     border: rgb(255,200,87) dashed;
@@ -90,23 +92,24 @@ aside{
     color: rgb(255,200,87);
 }
 
-.article-2{
-    margin-top: 5px;
-
-    border: rgb(255,200,87) dashed;
-    border-radius: 10px;
+.article > h3{
+    color: rgb(255,200,87);
 
     text-align: center;
-    color: rgb(255,200,87);
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-footer>h3{
+/*Footer*/
+footer > h3{
     color: rgb(197,34,51);
     text-align: left;
     margin-left: 0%;
 }
 
-footer>h4{
+footer > h4{
     color: rgb(197,34,51);
     text-align: left;
     margin-left: 0%;
@@ -122,8 +125,3 @@ footer>h6{
     text-align: left;
 }
 
-h5{
-    color: rgb(255,200,87);
-    text-align: center;
-    margin-top: 0%;
-}
